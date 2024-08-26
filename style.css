@@ -138,22 +138,4 @@ input::placeholder {
 
 .weather_card p {
   font-size: 14px;
-}
-
-
-
-@media (max-width: 400px) {
-  .weather_info {
-    grid-template-columns: none;
-  }
-}
-  @media (max-width: 400px) {
-    .weather_header {
-      flex-direction: column; /* Ensure header elements stack properly on very small screens */
-    }
-  
-    .weather_info {
-      grid-template-columns: 1fr; /* Stack weather cards on very small screens */
-    }
-  }
-  
+}  
