@@ -8,17 +8,20 @@
 }
 
 body {
-  background: #1e1e1e;
-  color: #171717;
+  background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
 }
-
 .container {
-  background-color: #fff;
-  color: #171717;
+  cursor: none;
   padding: 2rem;
   width: 40%;
   margin: 4rem auto;
   border-radius: 10px;
+  color: #171717;
+  backdrop-filter: blur(3px) saturate(50%);
+  -webkit-backdrop-filter: blur(16px) saturate(50%);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .weather_header {
@@ -115,9 +118,13 @@ input::placeholder {
 .weather_card {
   display: flex;
   align-items: center;
-  background: #1e1e1e;
-  background-color: #f7f7f7;
-  color: #000;
+  /* background: #1e1e1e; */
+  color: #d3c5c5;;
+  backdrop-filter: blur(3px) saturate(50%);
+  -webkit-backdrop-filter: blur(-145px) saturate(70%);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  /* background-color: #f7f7f7; */
   padding: 1rem;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
